@@ -1,9 +1,0 @@
-#自定义路由
-zuul:
-  routes:
-    myProduct:
-      path: /myProduct/**
-      serviceId: product
-#   禁止外部访问该接口
-  ignored-patterns:
-    - /product/product/listForOrder
